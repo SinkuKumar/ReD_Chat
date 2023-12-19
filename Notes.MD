@@ -1,0 +1,179 @@
+# [Full Stack Project | React and DRF | djChat](https://www.youtube.com/playlist?list=PLOLrQ9Pn6cawHF2lVl9goEm9Ta3rlutPD)
+[Very Academy](https://www.youtube.com/@veryacademy)
+
+## 1. Course Introduction and Technical Preview
+
+* React Frontend
+* Django DRF Backend
+* Using WebSockets for Real-Time Communication
+* Use JWT for Authentication
+* HTTP Cookies for Authentication
+* WebSocket Authentication
+* Refresh access tokens
+* Handling form validations
+* Extend your app
+* Walkthrough of app
+* React FrontEnd Material UI
+* Responsive Design
+* Django Administration
+* Document Endpoint API using Swagger UI
+* Filters and Validating Images
+* Reusable templates
+* API Integration
+
+
+1. **Course Overview and Accessibility**:
+   - Focuses on building a full stack React-Django application with DRF (Django Rest Framework) and channels for WebSocket functionality.
+   - Emphasizes accessibility; available on YouTube and Udemy for purchase.
+
+2. **Course Structure**:
+   - Spans approximately 28 hours, with potential additional hours due to ongoing improvements.
+   - Covers both front-end (React) and back-end (Django) development, which contributes to the course's length.
+
+3. **Content Highlights**:
+   - Starts with building the chat server administration API in the backend, involving managing servers and categorization.
+   - Emphasizes front-end templating using Material UI, focusing on responsive design and reusable components.
+   - Progresses to API integration, connecting the React application to the Django backend, considering issues like CORS and Axios interceptors.
+   - Implements WebSocket functionality using Django channels for real-time chat features.
+   - Focuses on authentication, starting from JWT (Json Web Tokens) implementation and moving to HTTP-only cookies, with an emphasis on customizations and security aspects.
+   - Concentrates on WebSocket authentication, refresh access tokens, and user authentication for both HTTP requests and WebSocket connections.
+
+4. **Technical Preview**:
+   - Provides a walkthrough of the developed project, showcasing the front-end React structure, its responsiveness, and component-based development.
+   - Demonstrates the backend's Django administration interface, including the setup of servers, categories, and chat rooms (channels).
+   - Illustrates how users navigate through servers, channels, and engage in chat functionalities within the application.
+
+5. **Detailed Course Components**:
+   - Backend development involves building APIs, filtering data, documenting using Swagger UI, managing database tables, and dealing with image uploads and associated signals.
+   - Frontend covers template creation, React page structuring, integration with Material UI, API connections, error handling, JWT implementation, and more.
+   - Discusses the complexities involved in setting up WebSocket functionality, authentication, security measures like HTTP-only cookies, token management, and CORS handling.
+
+6. **Course Approach**:
+   - Emphasizes not only following steps but understanding the processes, exploring customization, and adapting to individual project requirements.
+
+The course aims to equip learners with comprehensive skills in building a real-time chat application, covering various aspects from backend development to frontend design and integration, with a focus on explaining concepts for a deeper understanding.
+
+## 2. Initiating Project Source Control
+
+* Source Control System
+* Git
+* GitHub
+* Create Account
+* Install Git
+* GitHub Desktop
+* Create a GitHub Repository
+* Push to GitHub
+* Conclusion
+
+1. **Overview of Course Access**:
+   - Part of a comprehensive React-Django project called DJ Chat, available on YouTube playlist or as a full course on Udemy.
+   - GitHub link provided in the video description for the course.
+
+2. **Introduction to Source Control**:
+   - Highlights the importance of source control in software development for managing code changes over time.
+   - Emphasizes the use of Git, a widely used source control system, and the GitHub platform for cloud-based code storage and collaboration.
+
+3. **Setting Up Git and GitHub**:
+   - Demonstrates the installation of Git from git-scm.com for Mac, Windows, or Linux systems.
+   - Guides through verifying the successful installation of Git using terminal commands.
+   - Recommends downloading GitHub Desktop, a graphical user interface for Git, for easier management of repositories.
+
+4. **Creating a Repository**:
+   - Guides through creating a new repository using GitHub Desktop by specifying the repository name, path, and initialization options.
+   - Explains the initialization of a repository folder that Git will track for changes and introduces committing changes to Git.
+
+5. **Publishing to GitHub**:
+   - Guides through publishing the created repository to GitHub, linking the local repository to the GitHub platform for remote access and collaboration.
+   - Demonstrates the process of pushing changes to GitHub, making the code base securely available online for tracking changes and collaboration.
+
+6. **Benefits of GitHub**:
+   - Highlights the convenience of storing repositories on GitHub, enabling deployment, managing projects, and facilitating collaboration with others.
+
+7. **Conclusion**:
+   - Emphasizes the readiness to start building the application now that the project repository is set up and securely saved on GitHub.
+
+The tutorial aims to equip users with the fundamental knowledge and setup required to manage code changes, collaborate, and deploy a full stack React-Django project using Git and GitHub.
+
+## Create a New Django DRF Project
+
+## Configuring Environment Variables for your Project
+
+## Configuring Visual Studio Code for Black Formatting
+
+## Configuring Visual Studio Code for Flake8 Linting
+
+## Create your first commit in a Git repository
+
+## Initiate Chat Server Administration App
+
+## Creating a Django Custom User Model (AbstractUser)
+
+## Build Chat Server Administation Models
+
+## Build Chat Server Configuring DRF-Spectacular & Swagger UI
+
+## Configuring Default Authentication Classes in Django DRF
+
+## Creating an API Endpoint for Filtering Servers by Category
+
+## Creating an API Endpoint for Filtering Servers by Quantity
+
+## Creating an API Endpoint for Filtering Servers by User
+
+## Creating an API Endpoint for Filtering Servers by Server ID
+
+## Server Associated Channels
+
+## Filtering Servers and Returing Annotation
+
+## Creating Code Comments with ChatGPT
+
+## Creating DocStrings with ChatGPT
+
+## Creating an API Endpoint Decorator for Detailing Endpoints
+
+## Configuring Django to Handle Storing Images
+
+## Model Refactor for Icon and Banners for server
+
+## Django Model Validation Class for Image Field
+
+## Commit and Merge
+
+## Create a new React Project with Vite
+
+## React Pages Directory and Home Component
+
+## React Routing Introdution with React Router
+
+## Install MUI and integrate it into the existing project
+
+## Creating the Primary App Bar (Part-1) Framework
+
+## Integrating Google Fonts into an existing React/MUI project
+
+## MUI Repsponsive Fonts
+
+## Creating the Primary App Bar (Part-2) Responsive
+
+## MUI Primary Draw (Part-1) Framework
+
+## MUI Primary Draw (Part-2) Framework
+
+## MUI Secondary Draw (Part-1) Framework
+
+## Creating the Main Component with Material UI
+
+## Installing Axios Create First API request
+
+## Configuring Cross-Origin Resource Sharing (CORS)
+
+## Create a Global Configuring File
+
+## Axios Interceptor
+
+## React CRUD Hook
+
+## Primary Drawer Component MUI5
+
+## Secondary Draw Component - Explore Categories
