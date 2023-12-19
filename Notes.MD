@@ -52,6 +52,7 @@
 
 The course aims to equip learners with comprehensive skills in building a real-time chat application, covering various aspects from backend development to frontend design and integration, with a focus on explaining concepts for a deeper understanding.
 
+
 ## 2. Initiating Project Source Control
 
 * Source Control System
@@ -93,6 +94,7 @@ The course aims to equip learners with comprehensive skills in building a real-t
 
 The tutorial aims to equip users with the fundamental knowledge and setup required to manage code changes, collaborate, and deploy a full stack React-Django project using Git and GitHub.
 
+
 ## 3. Create a New Django DRF Project
 
 * VSCode
@@ -112,7 +114,6 @@ The tutorial aims to equip users with the fundamental knowledge and setup requir
    - Provides instructions for activating venv on both Mac and Windows systems through terminal commands (`source` and `venv`).
    - `python3 -m venv venv`
    - `source venv/bin/activate`
-
 
 3. **Installing Django**:
    - Demonstrates the use of the Python package manager `pip` to install Django within the activated virtual environment. 
@@ -142,7 +143,44 @@ The tutorial aims to equip users with the fundamental knowledge and setup requir
 
 This segment of the tutorial focuses on setting up the development environment by creating a virtual environment, installing Django and DRF, configuring the project structure, and running the Django server within the created Git repository folder.
 
-## Configuring Environment Variables for your Project
+
+## 4. Configuring Environment Variables for your Project
+
+* Secret and sensitive information
+* dotenv in python
+* Install dotenv
+* Create `.env` file
+
+1. **Purpose of Environment Variables**:
+   - Explains the importance of managing sensitive information in the project, utilizing environment variables to separate sensitive data from the codebase.
+   - Emphasizes the significance of security considerations, especially regarding sensitive information like database credentials and secret keys.
+
+2. **Identifying Sensitive Data**:
+   - Discusses identifying values (e.g., database credentials, secret keys) that need to be stored as environment variables instead of being exposed in the codebase.
+
+3. **Setting Up Environment Variables**:
+   - Focuses on the use of the `python-dotenv` package.
+   - Instructs users to install `python-dotenv` using `pip install python-dotenv`.
+   - Creates a `.env` file within the project folder to store sensitive information as key-value pairs.
+
+4. **Moving Sensitive Information to Environment Variables**:
+   - Demonstrates moving sensitive data, such as the `SECRET_KEY` and `DEBUG` settings, from the Django project's settings file to the `.env` file.
+   - Explains the rationale behind securing the `SECRET_KEY` and managing the `DEBUG` setting through environment variables.
+
+5. **Accessing Environment Variables**:
+   - Utilizes Python's `os` module and the `python-dotenv` library to access environment variables within the Django project.
+   - Provides code examples showing how to access environment variables like `SECRET_KEY` and `DEBUG` in the Django settings file.
+
+6. **Testing Environment Variables**:
+   - Conducts a test to ensure that the Django application can access and apply the values stored in the `.env` file as environment variables.
+   - Demonstrates a test by intentionally removing the `SECRET_KEY` from the settings file and verifying that Django throws an error when trying to access the missing key.
+
+7. **Summary and Considerations**:
+   - Summarizes the significance of configuring environment variables for enhanced security and manageability in software development.
+   - Highlights the importance of configuring environment variables for different deployment environments and suggests seeking deployment-specific approaches for setting environment variables.
+
+This tutorial provides a comprehensive guide to leveraging environment variables in Django projects to enhance security, manage sensitive information, and ensure smoother application deployment across various environments.
+
 
 ## Configuring Visual Studio Code for Black Formatting
 
