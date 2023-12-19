@@ -182,7 +182,44 @@ This segment of the tutorial focuses on setting up the development environment b
 This tutorial provides a comprehensive guide to leveraging environment variables in Django projects to enhance security, manage sensitive information, and ensure smoother application deployment across various environments.
 
 
-## Configuring Visual Studio Code for Black Formatting
+## 5. Configuring Visual Studio Code for Black Formatting
+
+* Linting and Formatting
+* Readability, Maintainability and Correctness
+* Black - Python code formatter adhere to PEP8 guide
+* Install Black
+* Configure Black
+* Install isort
+
+1. **Purpose of Linting and Formatting**:
+   - Explains the importance of linting and formatting in software development for readability, maintainability, and code correctness.
+
+2. **Introduction to Black**:
+   - Introduces Black as a Python code formatter that automatically formats code to comply with the PEP 8 style guide.
+   - Recommends Black for maintaining consistency and readability across Python projects.
+
+3. **Installation of Black**:
+   - Guides users to install Black using the Python package index (`pip install black`) within the project environment.
+
+4. **Integration with Visual Studio Code**:
+   - Demonstrates setting up Black in Visual Studio Code for a more customized configuration.
+   - Advises creating a `.vscode` folder and a `settings.json` file within the project for specific settings.
+
+5. **Configuring VS Code Settings**:
+   - Configures the `settings.json` file to include settings for formatting on save and utilizing Black as the default Python formatter.
+   - Explains the significance of specifying settings for different programming languages within VS Code.
+
+6. **Testing the Setup**:
+   - Conducts a test by intentionally modifying code in a Python file and saving it to observe Black automatically formatting the code according to the PEP 8 style guide.
+   - Identifies additional actions needed to organize imports and guides users to install the `isort` extension in VS Code.
+   - Demonstrates how the installed `isort` extension enhances the import organization automatically upon saving the file.
+
+7. **Summary of Benefits**:
+   - Summarizes the advantages of consistent formatting throughout the project, ensuring that Python code adheres to coding standards.
+   - Emphasizes the importance of utilizing tools like Black and VS Code extensions to maintain code consistency and readability.
+
+This tutorial offers a detailed guide on setting up and integrating Black, along with VS Code configurations, to streamline code formatting and improve the overall quality of a Django project.
+
 
 ## Configuring Visual Studio Code for Flake8 Linting
 
