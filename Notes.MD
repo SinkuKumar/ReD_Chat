@@ -21,7 +21,6 @@
 * Reusable templates
 * API Integration
 
-
 1. **Course Overview and Accessibility**:
    - Focuses on building a full stack React-Django application with DRF (Django Rest Framework) and channels for WebSocket functionality.
    - Emphasizes accessibility; available on YouTube and Udemy for purchase.
@@ -94,7 +93,54 @@ The course aims to equip learners with comprehensive skills in building a real-t
 
 The tutorial aims to equip users with the fundamental knowledge and setup required to manage code changes, collaborate, and deploy a full stack React-Django project using Git and GitHub.
 
-## Create a New Django DRF Project
+## 3. Create a New Django DRF Project
+
+* VSCode
+* Virtual Environment
+* Create a new venv
+* Activate venv
+* PyPI
+* `cmd+k` on mac or `cls` windows to clear terminal
+* Create django project
+* Install Django REST Framework (DRF)
+* Run server
+
+1. **Virtual Environment Setup**:
+   - Guides users to activate a virtual environment (venv) within the project folder to contain project-specific dependencies.
+
+2. **Activation on Different Platforms**:
+   - Provides instructions for activating venv on both Mac and Windows systems through terminal commands (`source` and `venv`).
+   - `python3 -m venv venv`
+   - `source venv/bin/activate`
+
+
+3. **Installing Django**:
+   - Demonstrates the use of the Python package manager `pip` to install Django within the activated virtual environment. 
+   - `pip install django`
+   - Highlights that the downloads are sourced securely from the Python Package Index (PyPI).
+
+4. **Source Control and Ignoring Files**:
+   - Acknowledges that Git is tracking all changes, including the virtual environment files (venv), which aren't intended to be tracked.
+   - Suggests that venv-related files should be excluded from version control, and this process will be explained shortly.
+
+5. **Creating a Django Project**:
+   - Uses the `django-admin` command to initiate a new Django project called "D_Chat." 
+   - `django-admin startproject D_Chat`
+   - Discusses different approaches to structuring Django projects and chooses to create a main project folder within the root directory.
+
+6. **Navigating the Project Structure**:
+   - Demonstrates how the terminal is positioned within the project folder, allowing easy navigation and manipulation of project files.
+   - Clarifies how the `manage.py` file serves as the entry point for Django commands and interactions.
+
+7. **Installing Django Rest Framework (DRF)**:
+   - Highlights the need to install Django Rest Framework (DRF) using `pip install djangorestframework` within the activated virtual environment.
+
+8. **Running the Django Server**:
+   - Guides users to activate the Django server using the `python manage.py runserver` command.
+   - Demonstrates how the server starts and provides the URL to access the Django application in the browser.
+   - Emphasizes using `Ctrl + C` to quit the server and regain control of the terminal for further commands.
+
+This segment of the tutorial focuses on setting up the development environment by creating a virtual environment, installing Django and DRF, configuring the project structure, and running the Django server within the created Git repository folder.
 
 ## Configuring Environment Variables for your Project
 
