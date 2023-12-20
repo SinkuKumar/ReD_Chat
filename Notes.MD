@@ -303,6 +303,33 @@ The tutorial offers a comprehensive understanding of version control using Git, 
 * Django promotes idea of breaking functionality into apps.
 * Testing and documentation for code.
 
+1. **Introduction to Building Chat Server Administration App**:
+   - Description of the project "DJ Chat" as a Full Stack React Django DRF Channel project.
+   - Mention of available tutorials and courses for reference.
+
+2. **Purpose of Chat Server Administration App**:
+   - The focus is on building a dedicated app for server and channel management.
+   - The app will handle server and channel logic, API endpoints, and data retrieval based on query parameters.
+
+3. **Functionality of the Single Viewset**:
+   - Emphasis on constructing a single viewset that retrieves server and associated channel data using query parameters.
+   - Details about specifications and functionalities will be elaborated on while building the viewset.
+
+4. **Creating a New Django App**:
+   - Recommended to work within the virtual environment for isolation.
+   - Use the Django command `startapp` to create a new app called "server" within the "DJ chat" directory.
+
+5. **Importance of App Modularity in Django**:
+   - Explanation of Django's app-based structure for modularity, maintainability, and scalability.
+   - Benefits include modularity for maintainability, reusability across projects, testing, and documentation.
+
+6. **Generated Files by Django**:
+   - Upon creating the "server" app, Django generates multiple files.
+   - Removing a test file from the app folder, ensuring not to delete any other crucial files in the app structure.
+
+The tutorial covers the rationale behind creating a separate app for specific functionalities in Django, highlighting the advantages of modularity and its impact on maintainability, reusability, testing, and documentation within the project. It introduces the initial steps for setting up the "server" app and the importance of keeping the app structure clean and organized.
+
+
 ## Creating a Django Custom User Model (AbstractUser)
 
 ## Build Chat Server Administation Models
