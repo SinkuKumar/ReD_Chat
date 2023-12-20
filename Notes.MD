@@ -221,7 +221,39 @@ This tutorial provides a comprehensive guide to leveraging environment variables
 This tutorial offers a detailed guide on setting up and integrating Black, along with VS Code configurations, to streamline code formatting and improve the overall quality of a Django project.
 
 
-## Configuring Visual Studio Code for Flake8 Linting
+## 6. Configuring Visual Studio Code for Flake8 Linting
+
+* Linting
+* Flake8
+* Install Flake8
+* Configure Flake8
+
+* Installation worked, but configuration don't using python packages. 
+* Alternatively, installed `Black-Formatter` and `Flake8` extensions by Microsoft in VSCode, with slight different configuration, working well. 
+* Checking settings.json for configuration.
+
+1. **Introduction to Linting and Flake8**:
+   - Explains the importance of linting in code development.
+   - Introduces Flake8 as a Python linter that checks code for syntax errors, unused imports, and other issues, enforcing code standards and best practices.
+
+2. **Installation of Flake8**:
+   - Demonstrates the installation process of Flake8 using `pip install flake8` within the project's virtual environment.
+   - Highlights the necessity of ensuring that the Visual Studio Code Python interpreter is set to the virtual environment to access installed dependencies.
+
+3. **Configuration in VS Code**:
+   - Guides users on configuring Flake8 within Visual Studio Code settings.
+   - Enables Python linting and sets up Flake8 to run on save, ensuring continuous code checking during development.
+
+4. **Customizing Flake8 Parameters**:
+   - Provides an example of changing the maximum line length parameter in Flake8 settings to align with the formatting standards of Black.
+   - Indicates that Flake8 offers various configuration options beyond what Black provides, encouraging users to explore further options.
+
+5. **Testing Flake8 Integration**:
+   - Demonstrates the practical implementation of Flake8 by intentionally introducing an error in the code and verifying Flake8's identification of the issue.
+   - Emphasizes the utility of Flake8 in identifying and assisting in rectifying code errors throughout the development process.
+
+The tutorial ensures that Flake8 is successfully integrated into the project's workflow within Visual Studio Code, offering a comprehensive understanding of its usage and configuration for effective code checking and maintaining coding standards.
+
 
 ## Create your first commit in a Git repository
 
