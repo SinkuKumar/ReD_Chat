@@ -296,7 +296,12 @@ The tutorial ensures that Flake8 is successfully integrated into the project's w
 The tutorial offers a comprehensive understanding of version control using Git, `.gitignore` for excluding specific files, tracking dependencies, and utilizing GitHub Desktop for managing commits and pushing changes to a remote repository.
 
 
-## Initiate Chat Server Administration App
+## 8. Initiate Chat Server Administration App
+
+* Server and Channel Management System app
+* Single view set, retrieving a list of server and associated channels based on query parameters
+* Django promotes idea of breaking functionality into apps.
+* Testing and documentation for code.
 
 ## Creating a Django Custom User Model (AbstractUser)
 
