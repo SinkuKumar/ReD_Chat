@@ -330,7 +330,44 @@ The tutorial offers a comprehensive understanding of version control using Git, 
 The tutorial covers the rationale behind creating a separate app for specific functionalities in Django, highlighting the advantages of modularity and its impact on maintainability, reusability, testing, and documentation within the project. It introduces the initial steps for setting up the "server" app and the importance of keeping the app structure clean and organized.
 
 
-## Creating a Django Custom User Model (AbstractUser)
+## 9. Creating a Django Custom User Model (AbstractUser)
+
+* Manage users
+* Custom User Model
+* AbstractBaseUser
+* AbstractUser
+* account app
+* Add app to `settings.py`
+* Add AUTH_USER_MODEL in `settings.py`
+
+1. **Introduction to the Django Project "DJ Chat"**:
+   - A part of a Full Stack React Django DRF Channel project.
+   - Reference to available tutorials and courses for further learning.
+
+2. **Leveraging Django's Pre-built Functionality**:
+   - Django offers pre-built functionality, including user administration.
+   - The necessity for user authentication in the application, indicating the need to manage user data.
+
+3. **Defining a Custom User Model**:
+   - Suggests defining a custom user model from the beginning for flexibility and customization.
+   - Recommends starting with Django's abstract base user and base user manager classes for a basic custom user model.
+
+4. **Importance of Custom User Model**:
+   - Explains the benefits of preemptively defining a custom user model: preventing migration issues and allowing future modifications.
+
+5. **Creating an App for User Account Management**:
+   - Creation of a new app called "account" within the "DJ chat" folder to manage account-related logic.
+   - Utilizing the abstract user as a foundation to extend and modify user-related functionalities.
+
+6. **Registering Apps in Settings**:
+   - Addition of the "account" and "server" apps to the `INSTALLED_APPS` settings in the Django project.
+
+7. **Specifying the Custom User Model**:
+   - Changing the default user model setting in Django's settings to use the newly created "account" table for user authentication.
+   - Summary of benefits: complete control over user model fields/methods, customization to project needs, and facilitating development of the server app using this model.
+
+The tutorial mainly focuses on setting up the project for user authentication by defining a custom user model. It emphasizes the advantages of early customization, avoiding future migration complexities, and preparing for future modifications in the user model. The process involves app creation, defining a custom user model, and configuring Django settings to use the new model for user authentication.
+
 
 ## Build Chat Server Administation Models
 
