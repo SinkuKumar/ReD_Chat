@@ -255,7 +255,46 @@ This tutorial offers a detailed guide on setting up and integrating Black, along
 The tutorial ensures that Flake8 is successfully integrated into the project's workflow within Visual Studio Code, offering a comprehensive understanding of its usage and configuration for effective code checking and maintaining coding standards.
 
 
-## Create your first commit in a Git repository
+## 7. Create your first commit in a Git repository
+
+* Tracking changes
+* .gitignore
+* Multiple .gitignore
+* requirements.txt
+* Git CLI
+* `git Commit`
+
+1. **Introduction to Repository and Changes**:
+   - Overview of the project DJ chat as part of a Full Stack React Django DRF project.
+   - Emphasis on the need to save the project's current state to enable rolling back to a stable version in case of issues during development.
+
+2. **Git Ignore Configuration**:
+   - Explanation of the necessity to ignore certain files and folders (like the virtual environment, database files, sensitive environment variables) in version control using `.gitignore`.
+   - Demonstration of creating a `.gitignore` file within the project folder to specify files/folders to exclude from tracking.
+
+3. **Visual Studio Code Integration**:
+   - Indication of how files specified in `.gitignore` are visually indicated in Visual Studio Code, making it clear that they are not being tracked.
+
+4. **Moving `.gitignore` to Root Directory**:
+   - Notice that placing `.gitignore` within a subdirectory does not prevent tracking of files within that subdirectory.
+   - Demonstrates moving the `.gitignore` file to the root directory to ensure exclusion of the specified files/folders within the entire project.
+
+5. **Versioning Dependencies**:
+   - Usage of `pip freeze > requirements.txt` to generate a list of all installed packages and dependencies needed to run the project.
+   - Addition of `requirements.txt` to the repository to help others replicate the project's environment.
+
+6. **Committing Changes**:
+   - Explanation of Git commits as snapshots of changes in files at a specific time.
+   - Description of commit messages and their significance in summarizing the changes made.
+   - Usage of GitHub Desktop to visualize the changes and commit the changes to the main branch.
+   - Pushing the committed changes to the GitHub repository for cloud storage.
+
+7. **Conclusion**:
+   - Reiteration of the importance of frequent commits to track changes and collaborate effectively.
+   - Promises additional techniques and information to enhance the development workflow throughout the project.
+
+The tutorial offers a comprehensive understanding of version control using Git, `.gitignore` for excluding specific files, tracking dependencies, and utilizing GitHub Desktop for managing commits and pushing changes to a remote repository.
+
 
 ## Initiate Chat Server Administration App
 
